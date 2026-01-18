@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import CategorySelector from '@/app/components/CategorySelector';
@@ -126,7 +125,6 @@ const categories:any = [
       formato: ['Anúncio', 'Artigo', 'Vídeo script', 'Relatório']
     }
   },
-  // Novas categorias adicionadas: Viagens, Culinária, Sustentabilidade, Entretenimento
   {
     slug: 'viagens',
     title: 'Viagens e Turismo',
@@ -444,10 +442,10 @@ Diretrizes Profissionais:
     !!selectedCategory && Object.keys(selectedCategory.options).every((key) => selections[key]);
 
   return (
-    <Box sx={{ minHeight: '100vh',   maxWidth: "md", mx: "auto", color: 'white', backgroundColor: 'common.white', p: 2 }}>
+    <Box sx={{ minHeight: '100vh', bgcolor: 'grey.100' }}>
       <Box py={6} px={2} textAlign="center" bgcolor="common.white" borderBottom={1} borderColor="divider">
         <Typography variant="h3" fontWeight="bold" color="text.primary">
-          Gerador de Prompts <span style={{ color: '#1976d2' }}>Especializados para IA</span>
+          Gerador de Prompts <span style={{ color: '#1976d2' }}>Especializados</span>
         </Typography>
         <Typography variant="subtitle1" color="text.secondary" maxWidth="md" mx="auto">
           Pare de lutar com a IA. Escolha seu nicho e gere comandos estruturados que entregam resultados profissionais.
@@ -455,7 +453,7 @@ Diretrizes Profissionais:
       </Box>
       <Container maxWidth="xl" sx={{ py: 4 }}>
         {!selectedCategory && (
-          <Box textAlign="center">
+          <Box>
             <Typography variant="h5" fontWeight="bold" color="text.primary" mb={3}>
               Selecione sua área de atuação
             </Typography>
@@ -471,7 +469,6 @@ Diretrizes Profissionais:
             onBack={() => setSelectedCategory(null)}
             allSelected={allOptionsSelected}
           />
-  // Novas categorias adicionadas: Viagens, Culinária, Sustentabilidade, Entretenimento
         )}
         {generatedPrompt && (
           <PromptDisplay
