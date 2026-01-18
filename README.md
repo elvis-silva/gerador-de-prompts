@@ -1,37 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Gerador de Prompts
 
-## Getting Started
+Crie **prompts poderosos para Inteligência Artificial em segundos**. Gere comandos profissionais para ChatGPT, marketing, vendas, programação e muito mais. :contentReference[oaicite:1]{index=1}
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💡 Sobre o Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O **Gerador de Prompts** é uma aplicação web que facilita a criação de instruções altamente eficazes para modelos de IA. Ideal para desenvolvedores, criadores de conteúdo, profissionais de marketing, vendedores e qualquer pessoa que queira **extrair o melhor das ferramentas de IA** sem perder tempo reinventando a roda.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✨ Gera prompts estruturados com linguagem clara, consistência e opções customizáveis para diferentes cenários de uso.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Principais Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+- 📌 Gerador de prompts para IA em múltiplas categorias  
+- ⚡ Execução rápida: resultados em segundos  
+- 🔧 Construído com **Next.js + TypeScript**  
+- 🧠 Otimizado para uso com ChatGPT e outros modelos de linguagem
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Começando
 
-## Deploy on Vercel
+### 📥 Pré-requisitos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Antes de começar, certifique-se de ter **Node.js** e um gerenciador de pacotes como **npm, yarn ou pnpm** instalados.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# gerador-de-prompts
+---
+
+### 🧪 Instalação
+
+1. Clone o repositório
+
+   ```bash
+   git clone https://github.com/elvis-silva/gerador-de-prompts.git
