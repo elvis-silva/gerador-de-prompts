@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import CategorySelector from '@/app/components/CategorySelector';
