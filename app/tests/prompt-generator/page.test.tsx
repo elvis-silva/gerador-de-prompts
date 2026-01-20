@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
-import PromptGenerator from '@/app/prompt-generator/page';
+import PromptGenerator from '@/app/prompt-generator/PromptGenerator';
 
 // Aumentamos o timeout para interações complexas se necessário
 describe('Fluxo Completo do PromptGenerator', () => {
